@@ -1,0 +1,60 @@
+Conceptual
+1. For each of parts (a) through (d), indicate whether we would generally
+expect the performance of a flexible statistical learning method to be
+better or worse than an inflexible method. Justify your answer.
+
+(a) The sample size n is extremely large, and the number of predictors p is small.
+
+I think generally it would be expected that when the sample size n is extremenly large and the number of predictors is small, a more flexible method would be preferred because it would be easier to see the relationship between a predictor and the associated response
+
+
+(b) The number of predictors p is extremely large, and the number of observations n is small.
+
+I think when there are a large number of predictors p and a small set of observations n it would be better to use an inflexible method to ensure that the relationship between the predictor and response is
+
+
+(c) The relationship between the predictors and response is highly non-linear.
+
+When the relationship is highly non-linear, we can reduce errors in predicting by using a more flexible approach which would be better
+
+(d) The variance of the error terms, i.e. σ2 = Var(ϵ), is extremely high.
+
+Page 35 describes a scenario where more flexible methods generally have a higher variance that inflexible methods.  If the Variance of the error terms is extremely high then it may be better to use a more inflexible method to reduce the variance of the error terms
+
+
+
+
+2. Explain whether each scenario is a classification or regression problem, and indicate whether we are most interested in inference or prediction. Finally, provide n and p.
+
+(a) We collect a set of data on the top 500 firms in the US. For each
+firm we record profit, number of employees, industry and the
+CEO salary. We are interested in understanding which factors
+affect CEO salary.
+
+I believe this is a regression problem as we are trying to predict the quantitative salary of CEOs
+n=500
+p=[profit, number of employees, industry, CEO salary]
+
+
+(b) We are considering launching a new product and wish to know
+whether it will be a success or a failure. We collect data on 20
+similar products that were previously launched. For each product we have recorded whether it was a success or failure, price
+charged for the product, marketing budget, competition price,
+and ten other variables.
+
+This will be a classification problem and we are most interested in inferencing whehter the product will be a success based on previous successes.
+n=20
+p=[success or failure, price charged for the product, marketing budget, competition price, and ten other variables]
+
+
+(c) We are interested in predicting the % change in the USD/Euro
+exchange rate in relation to the weekly changes in the world
+stock markets. Hence we collect weekly data for all of 2012. For
+each week we record the % change in the USD/Euro, the %
+change in the US market, the % change in the British market,
+and the % change in the German market.
+
+This is a regression problem and we are interested in predicting the future of the exchange rate.
+n = 52 weeks of data
+p = [% change in the USD/Euro, the % change in the US market, the % change in the British market, and the % change in the German market]
+
